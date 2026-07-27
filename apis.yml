@@ -1,9 +1,30 @@
 aid: innovatrix-tech-corp
 name: Innovatrix Tech, Corp.
-description: Innovatrix Tech, Corp. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Innovatrix Tech, Corp. operates Sahl (getsahl.io), an AI-powered Governance,
+  Risk, and Compliance (GRC) platform built in the MENA region for MENA
+  organizations. Sahl automates policy generation, control mapping, risk
+  assessment, evidence tracking, vulnerability scanning, and audit preparation
+  across 20+ regulatory frameworks including PDPL, ISO 27001, SOC 2, GDPR, NCA
+  ECC, and SAMA CSF, aiming to reduce compliance work from months to weeks with
+  an AI DPO assistant and compliance copilot. The company was part of the
+  Sanabil Investments x 500 Global Accelerator (Batch 8). It surfaced in the API
+  Evangelist network as a 500 Global portfolio company; as of this pass it
+  publishes a marketing site and a customer application login but no public API,
+  developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/innovatrix-tech-corp/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://getsahl.io/wp-content/uploads/2025/03/Sahl_logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- GRC
+- Compliance
+- Governance
+- Risk
+- Security
+- Regulatory
+- Audit
+- MENA
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +52,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/innovatrix-tech-corp-domain-security.yml
 - type: Website
   url: https://getsahl.io
+- type: Blog
+  url: https://getsahl.io/blogs/
+- type: Support
+  url: https://getsahl.io/contact/
+- type: Login
+  url: https://app.getsahl.io
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getsahl/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
