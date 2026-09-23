@@ -1,0 +1,30 @@
+# Front Door AI Index — innovatrix-tech-corp — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: innovatrix-tech-corp
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: getsahl.io
+  final_host: getsahl.io
+  ownership: own
+  owner: innovatrix-tech-corp
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 15
+  host_score: 15
+  density: 8.26
+  words: 1817
+  tiers:
+    agentic: 2
+    core: 13
+    model: 0
+  ambiguous: 7
+  top_terms:
+    AI: 13
+    automation: 4
+    intelligence: 2
+    chatbot: 1
+    copilot: 1
+    smart: 1
